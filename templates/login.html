@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if user in session %}
+        {{ url_for('dashboard') }}
+    {% else %}
+        <div class="container">
+            <h1 class="font">Login</h1>
+            <form action="/process/login" method="POST">
+                <input type="text" id="username" name="username" placeholder="Username">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+            <h4 class="font">Don't have an account?</h4>
+            <a href="/register">Register Now</a>
+            {% if userst == False %}
+            <h1 class="alert">Username or Password wrong.</h1>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endblock %}

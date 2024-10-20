@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center                                  ;
+    align-items: left;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+.navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.navbar .nav-link:hover {
+    color: #ddd;
+}
+
+.navbar .nav-link.active {
+    color: #fff;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active:hover {
+    color: #fff;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .nav-link.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+}
+
+.navbar .btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navbar .btn-black:hover {
+    background-color: #333;
+}
+
+.navbar .btn-black:active {
+    background-color: #333;
+}
+
+.navbar .btn-black:focus {
+    background-color: #333;
+}
+
+.navbar .btn-black:visited {
+    background-color: #333;
+}
+
+.navbar .btn-black:disabled {
+    background-color: #333;
+    cursor: not-allowed;
+}
+
+.btn-black {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.alert {
+    color: red !important;
+}
+
+.align-center {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

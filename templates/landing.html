@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if user %}
+        <h1 class="align-center">Welcome back, {{ user.username }}</h1>
+        <!-- Other landing page content -->
+    {% else %}
+        <div class="container">
+            <h1 class="align-center">Welcome to PasswordMan</h1>
+            <h2 class="align-center">The all-in-one tool for storing and saving important info.</h2>
+            <a class="btn-black align-center" href="/login">Click to start today</a>
+        </div>
+    {% endif %}
+{% endblock %}
